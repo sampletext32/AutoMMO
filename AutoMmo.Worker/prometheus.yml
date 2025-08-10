@@ -1,0 +1,9 @@
+﻿global:
+  scrape_interval: 5s  # scrape every 5 seconds
+
+scrape_configs:
+  - job_name: 'auto_mmo_worker'
+    static_configs:
+      - targets: [ 'host.docker.internal:5180' ]  # replace with the actual target address
+    metrics_path: '/metrics'  # path to the metrics endpoint
+    scheme: 'http'  # use http or https as appropriate

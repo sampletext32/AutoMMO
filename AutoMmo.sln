@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMmo.Worker", "AutoMmo.Worker\AutoMmo.Worker.csproj", "{B32F37B0-2D5F-4F57-81CF-792C319FDB7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "meta", "meta", "{2767244D-1BD3-48E7-A741-82553646065E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B32F37B0-2D5F-4F57-81CF-792C319FDB7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32F37B0-2D5F-4F57-81CF-792C319FDB7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32F37B0-2D5F-4F57-81CF-792C319FDB7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32F37B0-2D5F-4F57-81CF-792C319FDB7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

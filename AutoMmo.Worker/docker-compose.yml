@@ -1,0 +1,21 @@
+﻿services:
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus_auto_mmo
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./prometheus-data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana_auto_mmo
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin   # Set Grafana admin password here
+    volumes:
+      - ./grafana-storage:/var/lib/grafana

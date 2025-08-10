@@ -1,0 +1,9 @@
+bin/
+obj/
+.idea
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+AutoMmo.Worker/grafana-storage
+AutoMmo.Worker/prometheus-data
+AutoMmo.Worker/cookies.json
